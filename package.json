@@ -2,9 +2,10 @@
   "name": "scripts-nodejs",
   "version": "1.0.0",
   "description": "scripts for different use",
-  "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "start:move-files": "node ./build/src/move-files.js",
+    "start-ts:move-files": "ts-node src/move-files.ts",
     "test": "jest"
   },
   "author": "Angoulema",
